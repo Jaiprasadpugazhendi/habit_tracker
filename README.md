@@ -126,7 +126,7 @@ habit-tracker/
 ### **1️⃣ Clone the repo**
 
 ```bash
-git clone https://github.com/<your-username>/habit-tracker.git
+git clone https://github.com/jaiprasadpugazhendi/habit-tracker.git
 cd habit-tracker
 ```
 
@@ -219,5 +219,3 @@ It helps your profile + makes the project look active ✨
 ---
 
 
-✅ A demo GIF
-Just say **“banner”**, **“create description”**, or **“generate screenshots”**.
