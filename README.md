@@ -1,104 +1,34 @@
-# habit_tracker
-Say less J — here’s a **drip-heavy, GitHub-optimized, recruiter-friendly README.md** for your Habit Tracker project.
-It’s clean, aesthetic, and screams *“hire me, I build real stuff”*.
+# 🌿 Daily Habit Tracker (Flask + SQLite + Chart.js)
 
-Copy-paste this straight into your repo.
-
----
-
-# 🌿 **Daily Habit Tracker — Full-Stack Flask App**
-
-*A clean & modern productivity app to build habits, track streaks, and stay consistent.*
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python" />
-  <img src="https://img.shields.io/badge/Flask-Framework-orange?style=for-the-badge&logo=flask" />
-  <img src="https://img.shields.io/badge/SQLite-Database-003b57?style=for-the-badge&logo=sqlite" />
-  <img src="https://img.shields.io/badge/Chart.js-Visualizations-ff6384?style=for-the-badge&logo=chartdotjs" />
-  <img src="https://img.shields.io/badge/Status-Live-success?style=for-the-badge" />
-</p>
+A clean, minimal **daily habit tracker** built with **Python (Flask)**, **SQLite**, and **HTML/CSS/JavaScript**.  
+Users can create habits, mark them as complete each day, and track streaks and weekly completions with charts.
 
 ---
 
-## 🌟 **What this project does**
+## ✨ Features
 
-This app helps users build discipline by tracking daily habits.
-It includes:
-
-* 🔥 Streak system (auto-reset on missed days)
-* 📊 Weekly analytics with Chart.js
-* ➕ Add habits
-* ✅ Mark habits as complete
-* 👤 Login / Register
-* 🌓 Beautiful dark theme
-* 📁 SQLite backend
-* 🤝 Full CRUD API
-
-Perfect for real-world usage and a killer addition to your GitHub portfolio.
+- User registration and login
+- Create habits with name + category
+- Daily completion tracking
+- Automatic streak calculation
+- Weekly completion stats (last 7 days)
+- Dashboard with bar chart using Chart.js
+- Dark, modern UI
 
 ---
 
-## 📸 **Screenshots**
+## 🧱 Tech Stack
 
-> Add your own screenshots after running the project
-
-| Dashboard     | Weekly Stats  |
-| ------------- | ------------- |
-| *(add image)* | *(add image)* |
-
----
-
-## 🚀 **Tech Stack**
-
-### **Frontend**
-
-* HTML5
-* CSS3 (dark UI)
-* Vanilla JavaScript
-* Chart.js
-
-### **Backend**
-
-* Python
-* Flask
-* Flask-SQLAlchemy
-* SQLite
-* Werkzeug Auth
+- **Backend:** Python, Flask, Flask-SQLAlchemy
+- **Database:** SQLite
+- **Frontend:** HTML, CSS, Vanilla JavaScript
+- **Charts:** Chart.js
 
 ---
 
-## 🧩 **Features Breakdown**
+## 📂 Project Structure
 
-### ✅ **Habit Management**
-
-* Create habits with category
-* Mark as complete
-* Track streaks
-* Track history
-
-### 📊 **Dashboard Analytics**
-
-* Last 7 days completion chart
-* Streak counter
-* Visual insights
-
-### 🔐 **Authentication**
-
-* Login
-* Register
-* Secure password hashing
-
-### 📱 **UI / UX**
-
-* Fully responsive
-* Dark minimal theme
-* Smooth interactions
-
----
-
-## 📂 **Project Structure**
-
-```
+```bash
 habit-tracker/
 ├── app.py
 ├── database.py
@@ -121,101 +51,71 @@ habit-tracker/
 
 ---
 
-## ⚙️ **Installation & Setup**
+## 🚀 Getting Started (Local Setup)
 
-### **1️⃣ Clone the repo**
+### 1️⃣ Clone the repo
 
 ```bash
-git clone https://github.com/jaiprasadpugazhendi/habit-tracker.git
+git clone https://github.com/<your-username>/habit-tracker.git
 cd habit-tracker
 ```
 
-### **2️⃣ Create a virtual environment**
+### 2️⃣ Create virtual environment
 
 ```bash
 python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
-### **Activate it:**
-
-* Windows
-
-  ```bash
-  venv\Scripts\activate
-  ```
-* Mac/Linux
-
-  ```bash
-  source venv/bin/activate
-  ```
-
-### **3️⃣ Install dependencies**
+### 3️⃣ Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### **4️⃣ Run the server**
+### 4️⃣ Run the app
 
 ```bash
 python run.py
 ```
 
-### **5️⃣ Open in browser**
-
-```
-http://127.0.0.1:5000
-```
+Then open your browser at:  
+`http://127.0.0.1:5000`
 
 ---
 
-## 🔥 **Streak Logic Explained**
+## 🔐 Default Config
 
-The vibe is simple:
-
-```
-If last completed == yesterday → streak + 1  
-If last completed == today → ignore  
-Else → streak resets to 1  
-```
-
-Keeps users accountable like a real productivity app.
+- Uses `SECRET_KEY` in `app.py` – change it before deploying.
+- SQLite DB file: `habit_tracker.db` (auto-created).
 
 ---
 
-## 📦 **Future Upgrades (if you wanna evolve it later)**
+## 🧮 Streak Logic
 
-* 📅 Calendar view per habit
-* 🔔 Email or push reminders
-* 🏆 Habit badges / achievements
-* 📤 Export stats to CSV
-* 🌓 Light mode toggle
-* 🧠 Simple ML model to predict habit consistency
+- If you complete a habit:
+  - **Yesterday was last completion** → streak +1  
+  - **Already completed today** → no change  
+  - **Missed a day** → streak resets to 1  
 
 ---
 
-## ❤️ **Why this project is resume-worthy**
+## 🛠 Possible Extensions
 
-* Full-stack
-* Real functionality
-* APIs + DB + Auth + UI
-* Clean code
-* Expandable
-* Looks 🔥 in a GitHub portfolio
-* Perfect for internships, Jr dev roles, or showcasing Python skill
+- Email reminders for habits
+- Calendar view per habit
+- Categories filter & search
+- Mobile responsive enhancements
+- Export data as CSV
 
 ---
 
-## 📝 **License**
+## 📸 Screenshots
 
-MIT License — free to use, modify, and learn from.
-
----
-
-## 🙌 **Star the repo if you like it**
-
-It helps your profile + makes the project look active ✨
+_Add screenshots or GIFs of your dashboard UI here once you run the app locally._
 
 ---
 
+## 📜 License
 
+MIT – Feel free to use, modify, and learn from it.
