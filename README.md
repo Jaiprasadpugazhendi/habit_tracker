@@ -111,17 +111,15 @@ Then open your browser at:
 ---
 
 ## 📸 Screenshots
-### login page 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b0232156-78bf-46e2-9cf4-5c064537d4f2" />
-#### sign in
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1850e63f-3008-4a11-8912-3cdc7c57261c" />
-####  Dashorad
-<img width="1919" height="1012" alt="image" src="https://github.com/user-attachments/assets/cf9838dc-7364-4db0-8cf6-623442bad011" />
-
-
-
-_Add screenshots or GIFs of your dashboard UI here once you run the app locally._
-
+<div align="center">
+🔐 Login Page
+<img src="https://github.com/user-attachments/assets/b0232156-78bf-46e2-9cf4-5c064537d4f2" width="70%" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.3);" />
+📝 Sign Up Page
+<img src="https://github.com/user-attachments/assets/1850e63f-3008-4a11-8912-3cdc7c57261c" width="70%" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.3);" />
+📊 Dashboard
+<img src="https://github.com/user-attachments/assets/cf9838dc-7364-4db0-8cf6-623442bad011" width="70%" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.3);" />
+🚪 After Logout
+<img src="https://github.com/user-attachments/assets/4996c191-a327-4764-a84d-b4318d45aada" width="70%" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.3);" /> </div>
 ---
 
 ## 📜 License
