@@ -111,7 +111,7 @@ Then open your browser at:
 ---
 
 ## 📸 Screenshots
-<div align="center">
+<div>
 🔐 Login Page
 <img src="https://github.com/user-attachments/assets/b0232156-78bf-46e2-9cf4-5c064537d4f2" width="70%" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.3);" />
 📝 Sign Up Page
@@ -119,7 +119,10 @@ Then open your browser at:
 📊 Dashboard
 <img src="https://github.com/user-attachments/assets/cf9838dc-7364-4db0-8cf6-623442bad011" width="70%" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.3);" />
 🚪 After Logout
-<img src="https://github.com/user-attachments/assets/4996c191-a327-4764-a84d-b4318d45aada" width="70%" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.3);" /> </div>
+<img src="https://github.com/user-attachments/assets/4996c191-a327-4764-a84d-b4318d45aada" width="70%" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.3);" /> 
+final output
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/4e386f74-1f29-4874-9dd2-050fcaf781f6" />
+</div>
 ---
 
 ## 📜 License
